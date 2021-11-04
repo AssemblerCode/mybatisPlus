@@ -1,9 +1,0 @@
-package com.jn.mybatisPlus.mapper;
-
-import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.jn.mybatisPlus.entity.User;
-import org.apache.ibatis.annotations.Mapper;
-
-@Mapper
-public interface UserMapper   extends BaseMapper<User> {
-}
